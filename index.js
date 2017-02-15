@@ -14,7 +14,7 @@ module.exports = function (dirpath, options) {
 	}
 	chokidar.watch(dirpath, options.chokidar || {})
 		.on('all', function (event, path) {
-			if (event === 'unlink') {
+			if (event === 'unlink' || event === 'unlinkDir') {
 				delete obj.hashes[path]
 				return
 			}
