@@ -1,0 +1,36 @@
+{
+  "name": "dynamic-asset-rev",
+  "version": "0.1.0",
+  "description": "Provides dynamically updated file hashes for cache busting",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myfreeweb/dynamic-asset-rev"
+  },
+  "keywords": [
+    "assets",
+    "static",
+    "cache",
+    "caching",
+    "cachebusting",
+    "cache busting",
+    "fingerprint",
+    "rev",
+    "hash"
+  ],
+  "author": "Greg V <greg@unrelenting.technology>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/myfreeweb/dynamic-asset-rev/issues"
+  },
+  "homepage": "https://github.com/myfreeweb/dynamic-asset-rev#readme",
+  "dependencies": {
+    "chokidar": "^1.6.1",
+    "debug": "^2.6.1",
+    "rev-hash": "^1.0.0"
+  }
+}
